@@ -15,7 +15,7 @@ export default function Home() {
         <Info/>
         <div className="buttons">
           <SocialBtns/>
-          <a className="btn-primary" href="juliosparapan2014@gmail.com">
+          <a className="btn-primary" href="mailto:juliosparapan2014@gmail.com">
             contact me
             <EmailIcon/>
           </a>
