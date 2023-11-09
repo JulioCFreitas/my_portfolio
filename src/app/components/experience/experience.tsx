@@ -8,7 +8,7 @@ export function Experience() {
   return (
     <div className="experience">
       <SectionTitle text="Experience" />
-      <p>2 years working as a Software Developer, in company SIS Informatica Consulting LTDA.</p>
+      <p>3 years working as a Software Developer, in company SIS Informatica Consulting LTDA.</p>
       <div className="experience-time">
         <Skill image="./java.png" measure={3} years="3 year" />
         <Skill image="./jax-rs.png" measure={2} years="2 year" />
