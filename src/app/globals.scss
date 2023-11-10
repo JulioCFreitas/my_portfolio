@@ -1,6 +1,6 @@
 :root {
   --text-primary: rgb(255, 255, 255);
-  --text-secondary: #707070;
+  --text-secondary: #d6d6d6;
   --bg-primary: rgb(0, 57, 92); 
 }
 
@@ -17,5 +17,21 @@ body {
 }
 
 body {
-  background-color: var(--bg-primary);
+  background: linear-gradient(45deg, #212121,#31799a, #212121, #31799a, #212121);
+  background-size: 300% 300%;
+  animation: color 15s ease-in-out infinite;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
