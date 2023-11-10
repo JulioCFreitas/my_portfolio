@@ -11,7 +11,7 @@ export function Header(){
           </div>
           <Image
           //Rsponsivo DesckTop
-            src="./julio.jpg"
+            src="./juliof.jpg"
             alt="Vercel Logo"
             width={290}
             height={310}
